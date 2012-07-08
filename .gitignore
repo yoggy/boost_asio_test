@@ -1,0 +1,9 @@
+*.swp
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+tcp_client
+tcp_server_multi
+tcp_server_single
