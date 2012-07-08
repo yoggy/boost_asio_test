@@ -15,7 +15,7 @@ elseif(APPLE)
 endif()
 
 add_executable(tcp_client tcp_client.cpp)
-target_link_libraries(tcp_client boost_thread-mt boost_system-mt)
+target_link_libraries(tcp_client ${LIBS})
 
 add_executable(tcp_server_single tcp_server_single.cpp)
 target_link_libraries(tcp_server_single ${LIBS})
